@@ -128,8 +128,4 @@
 		</plugins>
 	</build>
 
-	<issueManagement>
-		<url>https://github.com/yuriytkach/spring-basics-course-project</url>
-		<system>Github</system>
-	</issueManagement>
 </project>
