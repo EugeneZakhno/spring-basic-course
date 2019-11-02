@@ -14,7 +14,6 @@ import com.yet.spring.core.loggers.EventLogger;
 public class App {
 
     private Client client;
-
     private EventLogger defaultLogger;
 
     private Map<EventType, EventLogger> loggers;

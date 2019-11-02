@@ -20,7 +20,7 @@ public class ConsoleLoggerLimitAspect {
     
     public void aroundLogEvent(ProceedingJoinPoint jp, Event evt) throws Throwable {
         if (currentCount < maxCount) {
-            System.out.println("ConsoleEventLogger max count is not reached. Continue...");
+            System.out.println("ConsoleEventLogger max counting is not reached. Continue...");
             currentCount++;
             jp.proceed(new Object[] {evt});
         } else {
